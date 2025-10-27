@@ -88,7 +88,7 @@ document.querySelectorAll('.aboutObject .objTitle').forEach((el, index) => {
 
 
 
-document.querySelector('.buttonsCont button:first-child').addEventListener('click', () => {
+document.querySelector('.buttonsCont button:last-child').addEventListener('click', () => {
     const objects = document.querySelectorAll('.aboutObject');
     let textToCopy = '';
 
@@ -116,6 +116,6 @@ document.querySelector('.buttonsCont button:first-child').addEventListener('clic
 });
 
 
-document.querySelector('.buttonsCont button:nth-child(2)').addEventListener('click', () => {
+document.querySelector('.buttonsCont button:first-child').addEventListener('click', () => {
     window.location.href = 'index.html';
 });
